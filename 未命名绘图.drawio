@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T12:28:22.784Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DC2WphNUhb3wNZh7Qz5-" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T13:53:55.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cpZV3jns0b74axZrQmmH" version="22.1.0" type="github">
   <diagram name="第 1 页" id="NOW3hmvJAIs22LeMde_s">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,6 +198,174 @@
         </mxCell>
         <mxCell id="XaOAD2fkuNxS6bWYDo4a-12" value="InspectionTool.exe" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="229.5" y="1130" width="208.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="1510" width="1413" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-19" target="XaOAD2fkuNxS6bWYDo4a-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-37" value="重置 uninstkey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-32">
+          <mxGeometry x="0.7294" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-19" target="XaOAD2fkuNxS6bWYDo4a-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-38" value="enable 时重新获取 uninstkey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-34">
+          <mxGeometry x="0.5911" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-19" target="XaOAD2fkuNxS6bWYDo4a-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-39" value="升级完成获取 uninstkey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-35">
+          <mxGeometry x="0.5992" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-19" target="XaOAD2fkuNxS6bWYDo4a-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-40" value="上线时获取 uninstkey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-36">
+          <mxGeometry x="0.7309" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-41" value="开启紧急卸载工具" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-36">
+          <mxGeometry x="-0.7361" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-19" value="MGR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463.5" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-20" value="终端1-online" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-21" value="终端2-disable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-22" value="终端3-upgrade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-23" value="终端4-offline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-54" target="XaOAD2fkuNxS6bWYDo4a-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-46" value="1. 删除 uninstkey&lt;br&gt;2.&amp;nbsp;uninsttool.exe检查开关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-45">
+          <mxGeometry x="0.7294" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-54" target="XaOAD2fkuNxS6bWYDo4a-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-48" value="1. enable 时删除 uninstkey&lt;br&gt;2.uninsttool.exe检查开关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-47">
+          <mxGeometry x="0.5911" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-54" target="XaOAD2fkuNxS6bWYDo4a-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-50" value="1. 升级完成删除 uninstkey&lt;br&gt;2.&amp;nbsp;uninsttool.exe检查开关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-49">
+          <mxGeometry x="0.5992" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-54" target="XaOAD2fkuNxS6bWYDo4a-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-52" value="1. 上线时删除 uninstkey&lt;br&gt;2.&amp;nbsp;uninsttool.exe检查开关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-51">
+          <mxGeometry x="0.7309" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-53" value="关闭紧急卸载工具" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-51">
+          <mxGeometry x="-0.7361" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-54" value="MGR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1083.5" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-55" value="终端1-online" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-56" value="终端2-disable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-57" value="终端3-upgrade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1133" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-65" target="XaOAD2fkuNxS6bWYDo4a-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-65" value="uninst.exe" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="361" y="2120" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-58" value="终端4-offline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-61" value="uninst.ini" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-67" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2290" width="330" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-62" target="XaOAD2fkuNxS6bWYDo4a-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-74" value="counterflag" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-64">
+          <mxGeometry x="-0.1443" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-62" value="mgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-63" target="XaOAD2fkuNxS6bWYDo4a-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-81" value="写入时间戳和counterflag标志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-79">
+          <mxGeometry x="0.0303" relative="1" as="geometry">
+            <mxPoint x="9" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-63" value="uninsttool.exe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-75" target="XaOAD2fkuNxS6bWYDo4a-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-83" value="读取时间戳和counterflag标志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-82">
+          <mxGeometry x="0.0215" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-75" value="注册表" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2310" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XaOAD2fkuNxS6bWYDo4a-76" target="XaOAD2fkuNxS6bWYDo4a-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-85" value="获取时间戳" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaOAD2fkuNxS6bWYDo4a-84">
+          <mxGeometry x="-0.4984" y="-1" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-76" value="系统时间" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XaOAD2fkuNxS6bWYDo4a-87" value="counterflag=uninstkey + 随机字符串" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="2005" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
