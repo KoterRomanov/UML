@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T08:15:39.586Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JEcnIjzaL9xEItjMNmgc" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T08:34:31.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QMQcdyjh6rYfEbFydMtJ" version="22.1.1" type="github">
   <diagram name="第 1 页" id="NOW3hmvJAIs22LeMde_s">
     <mxGraphModel dx="2261" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -376,7 +376,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eRRkYoTHGr1jCAPYQTbQ-2" value="UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="2690" width="1010" height="60" as="geometry" />
+          <mxGeometry x="170" y="2690" width="1450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eRRkYoTHGr1jCAPYQTbQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-3" target="eRRkYoTHGr1jCAPYQTbQ-6">
           <mxGeometry relative="1" as="geometry" />
@@ -449,11 +449,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-33" target="eRRkYoTHGr1jCAPYQTbQ-50">
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-33" target="eRRkYoTHGr1jCAPYQTbQ-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eRRkYoTHGr1jCAPYQTbQ-33" value="故障运维" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="2782" width="450" height="20" as="geometry" />
+          <mxGeometry x="430" y="2782" width="1190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eRRkYoTHGr1jCAPYQTbQ-36" value="日志打包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="431" y="2860" width="59" height="34" as="geometry" />
@@ -505,6 +505,18 @@
         </mxCell>
         <mxCell id="eRRkYoTHGr1jCAPYQTbQ-50" value="认证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="714" y="2820" width="59" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-59" value="进程移除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1059" y="2930" width="70" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-60" value="驱动移除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="2930" width="70" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-61" value="配置修改" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="2930" width="70" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-62" value="运维工具" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="2930" width="70" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
