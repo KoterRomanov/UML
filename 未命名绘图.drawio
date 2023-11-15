@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T09:38:42.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MTR1ahgUhTcC-mKl1wRD" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T08:04:39.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tPB-06P_bT6C66rh3J2V" version="22.1.1" type="github">
   <diagram name="第 1 页" id="NOW3hmvJAIs22LeMde_s">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,6 +363,62 @@
         </mxCell>
         <mxCell id="XaOAD2fkuNxS6bWYDo4a-87" value="counterflag=uninstkey + 随机字符串" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="555" y="2005" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-2" target="eRRkYoTHGr1jCAPYQTbQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-5" value="终端健康度检测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eRRkYoTHGr1jCAPYQTbQ-4">
+          <mxGeometry x="-0.125" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-2" value="UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-3" target="eRRkYoTHGr1jCAPYQTbQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-3" target="eRRkYoTHGr1jCAPYQTbQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-3" target="eRRkYoTHGr1jCAPYQTbQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-3" target="eRRkYoTHGr1jCAPYQTbQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-3" target="eRRkYoTHGr1jCAPYQTbQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-3" target="eRRkYoTHGr1jCAPYQTbQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRRkYoTHGr1jCAPYQTbQ-3" target="eRRkYoTHGr1jCAPYQTbQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-3" value="终端故障诊断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-6" value="CPU 性能检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="2993" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-8" value="磁盘诊断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="2993" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-9" value="网络诊断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="2993" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-10" value="进程诊断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2993" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-11" value="服务诊断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="2993" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-12" value="驱动诊断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247" y="2993" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eRRkYoTHGr1jCAPYQTbQ-13" value="功能诊断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="513" y="2993" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
