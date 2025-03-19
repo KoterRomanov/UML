@@ -11,10 +11,10 @@
           <mxGeometry x="344" y="80" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PWd2fFFo5y_yB-qkOp8K-20" value="修改图书信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="344" y="220" width="140" height="70" as="geometry" />
+          <mxGeometry x="344" y="224" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PWd2fFFo5y_yB-qkOp8K-21" value="新增图书信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="410" width="140" height="70" as="geometry" />
+          <mxGeometry x="344" y="380" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PWd2fFFo5y_yB-qkOp8K-22" value="查询图书" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="150" width="140" height="70" as="geometry" />
@@ -28,7 +28,25 @@
         <mxCell id="PWd2fFFo5y_yB-qkOp8K-24" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PWd2fFFo5y_yB-qkOp8K-19" target="PWd2fFFo5y_yB-qkOp8K-22">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="484" y="115" as="sourcePoint" />
-            <mxPoint x="644" y="115" as="targetPoint" />
+            <mxPoint x="630" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWd2fFFo5y_yB-qkOp8K-25" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PWd2fFFo5y_yB-qkOp8K-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="259.5" as="sourcePoint" />
+            <mxPoint x="280" y="259.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWd2fFFo5y_yB-qkOp8K-27" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PWd2fFFo5y_yB-qkOp8K-20" target="PWd2fFFo5y_yB-qkOp8K-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="630" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWd2fFFo5y_yB-qkOp8K-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.036;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PWd2fFFo5y_yB-qkOp8K-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="250" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
